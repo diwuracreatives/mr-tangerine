@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import { SchoolMatches } from "./datas/popular_words_to_school";
+import { CountriesMatches } from "./datas/school_to_country";
 
 function App() {
+
+  const res = SchoolMatches.find((school) => school.word === "ui")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App m-4">
+      <img src="/logo.svg" alt="logo"></img>
+         <p className='mt-6'>School: {CountriesMatches[res.schoolMatchId].school}</p>
+         <p className="text-3xl font-bold">Country: {CountriesMatches[res.schoolMatchId].country}</p>
     </div>
   );
 }
