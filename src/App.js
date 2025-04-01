@@ -2,6 +2,7 @@ import "./index.css";
 // import { SchoolMatches } from "./datas/popular_words_to_school";
 // import { CountriesMatches } from "./datas/school_to_country";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,16 +22,7 @@ function App() {
         </div>
         {/* Footer */}
       </main>
-      <footer className="self-center flex gap-16 sm:gap-32 mt-8 [&>*]:flex [&>*]:flex-col [&>*]:items-center [&>*]:justify-center [&>*]:cursor-pointer [&>*]:gap-2">
-        <div>
-          <img src="/happy.svg" />
-          <p>Good to go!</p>
-        </div>
-        <div>
-          <img src="/sad.svg" />
-          <p>There's an issue!</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
