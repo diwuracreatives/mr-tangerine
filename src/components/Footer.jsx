@@ -31,7 +31,7 @@ export default function Footer() {
         <img src="/sad.svg" alt="Sad face" />
         <p>There's an issue!</p>
         {showOops && (
-          <div className="absolute top-[-100%] left-full transform -translate-x-1/2 mt-2 w-36 text-center border-2 rounded-2xl p-2 border-accent flex flex-col items-center justify-center gap-2 bg-slate-50">
+          <div className="absolute top-[-100%] left-0 sm:left-full transform -translate-x-1/2 mt-2 w-36 text-center border-2 rounded-2xl p-2 border-accent flex flex-col items-center justify-center gap-2 bg-slate-50">
             <img src="/info.svg" alt="info" />
             <p>Oops! Please try again.</p>
           </div>
