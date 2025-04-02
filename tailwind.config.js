@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
@@ -6,6 +7,7 @@ export default {
       colors: {
         primary: "#ffeeda",
         primary1: "#FFE0BA",
+        accent: "#002416",
       },
       fontSize: {
         main: "clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem)",
