@@ -5,13 +5,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#ffeeda",
-        primary1: "#FFE0BA",
-        accent: "#002416",
-      },
-      fontSize: {
-        main: "clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem)",
-        alt: "clamp(1.5rem, 1.35rem + 0.75vw, 2.25rem)",
+        "primary": "#096C1E",
+        "secondary": "#F28500",
+        "secondary-1": "#FFEEDA",
+        "secondary-2": "#FFE0BA",
+        "text-color": "#002416",
+        "text-color-light": "#777777",
+        "tagline": "#4B4E4D",
+        "input-bg": "#D0CACA",
+        "white": "#ffffff",
+
       },
     },
   },
